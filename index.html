@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>	
+	
+		<script src="scripts/Script.js" id="script" defer ></script>
+		<link rel='stylesheet' type='text/css' href='sdk/maps.css'/>
+		<link rel='stylesheet' type='text/css' href='sdk/maps.css'/>
+		<script src='sdk/maps-web.min.js'></script>
+		<script src='sdk/services-web.min.js'></script>
+		<link rel="stylesheet" href="styles/Style.css">
+	
+		<title>To Do List</title>
+	
+	</head>
+	
+	<body>	
+		
+		<header>
+			<h1 >To Do List</h1>
+		</header>
+			
+		<h2>
+		<div class="tableCont">	
+			
+			<div class="table" >
+				
+				<form id="form">
+					<input type="text" name="taskName" placeholder="Name of the task"><br>
+					<input type="text" name="taskLong" placeholder="Longtitude" readonly="readonly"><br>
+					<input type="text" name="taskLat" placeholder="Latitude" readonly="readonly"><br>
+					<select name="select">
+						<option value="Shopping">Shopping</option>
+						<option value="Appointment">Appointment</option>
+						<option value="Event">Event</option>
+						<option value="Alien Invasion">Alien Invasion</option>
+					</select>
+				    <input type="button" class="add" value="Add" id="submitButton">
+				</form>
+			</div>
+			
+			<div class="table">
+				<div id='map' class='map'></div>    
+			</div>
+			
+			<div class="table">
+			<ul style="list-style-type:none">
+				<div class="listContainer" id="div"></div>
+			</ul>
+			</div>	
+		
+		</div>
+	</body>
+	
+    <script src='scripts/mapScript.js'></script>
+
+</html>
+	
+

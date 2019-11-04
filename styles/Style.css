@@ -1,0 +1,118 @@
+body {
+	background-color: #f7eade;
+}
+
+#map {
+	width: 80vh;
+	height: 80vh;
+	top:0;
+	right:0;
+	border: 2px #949494 solid;
+}
+		
+h1{
+	text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    opacity: 0.7;
+	color: #ff6a6a;
+}
+	
+input{
+	margin: 8px 0;
+	padding: 12px 30px;
+}
+
+select{
+	padding: 12px 20px;
+}
+	
+.tableCont {
+	display: table;
+	width: 100%;
+	display:flex;
+}
+.table {
+	top: 0;
+	padding: 10px;
+	display: table-cell;
+}
+
+.name{
+	color: #969696;
+}
+
+.spec{
+	color: #969696;
+}
+
+.lng{
+	color: #969696;
+}
+
+.lat{
+	color: #969696;
+}
+
+.list{
+	background-color: white;
+	left: 0;
+	border: 2px #949494 solid;
+	border-radius: 4px;
+	margin-right: 0em;
+	margin: 8px 0;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+}
+.listContainer{
+	text-align: right;
+	vertical-align: middle;
+}
+
+.add{
+	background-color: #64ad64;
+	color: white;	
+	padding: 10px 12px;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px;
+	cursor: pointer;
+}
+
+.add:focus{
+	background-color:#4ea24e;
+}
+
+.delete{
+  background-color: #e50000;
+
+  color: white;
+  padding: 10px 15px;
+  text-align: top;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.delete:focus{
+	background-color:#b20000;
+}
+
+.edit{
+  background-color: #a5a5a5;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.edit:focus{
+	background-color:#5e5e5e;
+}
+
+	
